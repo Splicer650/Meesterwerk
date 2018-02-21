@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MeesterwerkData\MeesterwerkData.csproj" />
+    <ProjectReference Include="..\MeesterwerkServices\MeesterwerkServices.csproj" />
   </ItemGroup>
 
 </Project>

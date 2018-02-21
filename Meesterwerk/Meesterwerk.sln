@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meesterwerk", "Meesterwerk\Meesterwerk.csproj", "{17B6328E-2179-4DBE-99FF-C1EAC06F8DCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meesterwerk", "Meesterwerk\Meesterwerk.csproj", "{17B6328E-2179-4DBE-99FF-C1EAC06F8DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeesterwerkData", "MeesterwerkData\MeesterwerkData.csproj", "{B34B24C6-A3BD-446A-9A6A-98DA17381B0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeesterwerkData", "MeesterwerkData\MeesterwerkData.csproj", "{B34B24C6-A3BD-446A-9A6A-98DA17381B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeesterwerkServices", "MeesterwerkServices\MeesterwerkServices.csproj", "{47254942-E400-4F94-B74E-02AB55F1A3AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B34B24C6-A3BD-446A-9A6A-98DA17381B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B34B24C6-A3BD-446A-9A6A-98DA17381B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B34B24C6-A3BD-446A-9A6A-98DA17381B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47254942-E400-4F94-B74E-02AB55F1A3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47254942-E400-4F94-B74E-02AB55F1A3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47254942-E400-4F94-B74E-02AB55F1A3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47254942-E400-4F94-B74E-02AB55F1A3AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

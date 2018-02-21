@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MeesterwerkData;
+using MeesterwerkServices;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +25,9 @@ namespace Meesterwerk
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddSingleton(Configuration);
+            services.AddScoped<IPurchaseOrder, PurchaseOrderService>();
+            services.AddScoped<IDrawing, DrawingService>();
 
             services.AddDbContext<MeesterwerkContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MeesterwerkConnection")));
         }
